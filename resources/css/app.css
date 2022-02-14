@@ -1,0 +1,47 @@
+.ButtonForm{
+    text-align: center;
+}
+Button{
+    border: none;
+    background: #bcc7d7;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px;
+    width : 50%;
+}
+
+Button:hover,.AddButton:hover{
+    opacity: 0.7;
+}
+Button:active{
+    transform: translateY(4px);
+}
+
+.Action_buttons{
+    text-align:right;
+}
+.Action_buttons button{
+    width: 15%;
+    margin:0;
+}
+
+.AddButton{
+    background: #bcc7d7;
+    border-radius: 5px;
+    display:inline;
+    padding:10px;
+    cursor:pointer;
+}
+
+input[type='text']{
+    margin:10px;
+    border-radius:5px;
+    width:20%;
+    padding:7px;
+    border-color: #b2b2d2;
+}
+
+.point{
+    width:20%;
+    background-color: blue;
+}
